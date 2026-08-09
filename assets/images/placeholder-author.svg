@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 840" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustração conceitual da autora</title>
+  <desc id="desc">Composição abstrata com livro aberto, lua, estrelas e formas literárias.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#25133e"/><stop offset=".55" stop-color="#5b2c83"/><stop offset="1" stop-color="#111c3a"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#f0daa0" stop-opacity=".55"/><stop offset="1" stop-color="#d9b86c" stop-opacity="0"/></radialGradient>
+    <linearGradient id="page" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff9e7"/><stop offset="1" stop-color="#d9b86c"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="720" height="840" rx="32" fill="url(#bg)"/>
+  <circle cx="360" cy="300" r="236" fill="url(#halo)"/>
+  <path d="M469 104a136 136 0 1 0 41 249 151 151 0 0 1-41-249Z" fill="#f0daa0" opacity=".95"/>
+  <circle cx="157" cy="147" r="4" fill="#fff"/><circle cx="589" cy="215" r="3" fill="#fff"/><circle cx="119" cy="369" r="3" fill="#d9b86c"/><circle cx="610" cy="444" r="5" fill="#d9b86c"/>
+  <g fill="none" stroke="#d9b86c" opacity=".7"><path d="m118 237 7 17 17 7-17 7-7 17-7-17-17-7 17-7Z"/><path d="m603 331 5 12 12 5-12 5-5 12-5-12-12-5 12-5Z"/><path d="m562 104 4 10 10 4-10 4-4 10-4-10-10-4 10-4Z"/></g>
+  <path d="M251 358c-50 34-77 93-72 154 6 81 58 147 126 177 20 9 41 16 55 35 14-19 35-26 55-35 68-30 120-96 126-177 5-61-22-120-72-154-36-25-73-28-109-8-36-20-73-17-109 8Z" fill="#160e29" opacity=".56"/>
+  <g filter="url(#glow)">
+    <path d="M85 607c108-50 196-35 275 41v115c-77-64-165-76-275-29Z" fill="url(#page)" stroke="#d9b86c" stroke-width="4"/>
+    <path d="M635 607c-108-50-196-35-275 41v115c77-64 165-76 275-29Z" fill="url(#page)" stroke="#d9b86c" stroke-width="4"/>
+    <path d="M360 648v115" stroke="#755b36" stroke-width="6"/>
+  </g>
+  <g fill="none" stroke="#5b2c83" stroke-linecap="round" opacity=".35">
+    <path d="M127 650c75-25 137-15 190 28"/><path d="M126 680c75-23 136-13 191 29"/><path d="M593 650c-75-25-137-15-190 28"/><path d="M594 680c-75-23-136-13-191 29"/>
+  </g>
+  <path d="M360 602c-16-48-4-89 36-125-4 45-16 86-36 125Z" fill="#d9b86c" opacity=".88"/><circle cx="360" cy="595" r="6" fill="#fff7dc"/>
+  <text x="360" y="800" fill="#f0daa0" font-family="Georgia,serif" font-size="16" text-anchor="middle" letter-spacing="5">ILUSTRAÇÃO CONCEITUAL</text>
+</svg>
+

@@ -1,0 +1,33 @@
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+@keyframes pulse-glow {
+  0%, 100% { opacity: .55; }
+  50% { opacity: 1; }
+}
+@keyframes orbit {
+  to { transform: rotate(342deg); }
+}
+@keyframes scroll-dot {
+  0% { opacity: 0; transform: translate(-50%, 0); }
+  40% { opacity: 1; }
+  100% { opacity: 0; transform: translate(-50%, 10px); }
+}
+
+.hero-art { animation: float 6s ease-in-out infinite; }
+.hero-art__star, .spark { animation: pulse-glow 3s ease-in-out infinite; }
+.hero-art__star--2, .spark--2 { animation-delay: 1.2s; }
+.portal-ring--middle { animation: orbit 26s linear infinite; }
+.scroll-cue span::after { animation: scroll-dot 2s ease-in-out infinite; }
+
+.reveal { opacity: 1; transform: none; }
+.js .reveal { opacity: 0; transform: translateY(24px); transition: opacity 700ms ease, transform 700ms ease; }
+.js .reveal.is-visible { opacity: 1; transform: translateY(0); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; }
+  .js .reveal { opacity: 1; transform: none; }
+}
+

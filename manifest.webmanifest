@@ -1,0 +1,19 @@
+{
+  "name": "Aisha Faustino",
+  "short_name": "Aisha",
+  "description": "Site oficial da jovem escritora Aisha Faustino.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F8F7FB",
+  "theme_color": "#301A4B",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

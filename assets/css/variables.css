@@ -1,0 +1,28 @@
+:root {
+  --color-purple: #5b2c83;
+  --color-purple-dark: #301a4b;
+  --color-wine: #681b32;
+  --color-navy: #111c3a;
+  --color-black: #0b0c10;
+  --color-lavender: #eae1f5;
+  --color-white: #f8f7fb;
+  --color-gold: #d9b86c;
+  --color-gold-light: #f0daa0;
+  --color-ink: #21192b;
+  --color-muted: #696071;
+  --color-surface: #ffffff;
+  --font-heading: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Poppins", Arial, sans-serif;
+  --container: 1200px;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+  --radius-xl: 40px;
+  --radius-pill: 999px;
+  --shadow-sm: 0 10px 35px rgba(48, 26, 75, .08);
+  --shadow-md: 0 24px 70px rgba(27, 16, 43, .14);
+  --shadow-glow: 0 0 45px rgba(217, 184, 108, .22);
+  --transition: 220ms ease;
+  --section-space: clamp(5rem, 10vw, 8.5rem);
+}
+

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Um Amor Predestinado</title><desc id="desc">Capa conceitual original em vinho e dourado, com lua e castelo abstrato.</desc>
+  <defs>
+    <linearGradient id="b1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3b0d1e"/><stop offset=".55" stop-color="#681b32"/><stop offset="1" stop-color="#220813"/></linearGradient>
+    <radialGradient id="m1"><stop stop-color="#fff6d4"/><stop offset=".72" stop-color="#d9b86c"/><stop offset="1" stop-color="#8d6437"/></radialGradient>
+    <pattern id="p1" width="46" height="46" patternUnits="userSpaceOnUse"><path d="M23 3 43 23 23 43 3 23Z" fill="none" stroke="#d9b86c" stroke-opacity=".08"/></pattern>
+  </defs>
+  <rect width="600" height="900" fill="url(#b1)"/><rect x="18" y="18" width="564" height="864" rx="5" fill="url(#p1)" stroke="#d9b86c" stroke-width="2"/><rect x="34" y="34" width="532" height="832" rx="3" fill="none" stroke="#d9b86c" stroke-opacity=".35"/>
+  <path d="M80 175h440M80 710h440" stroke="#d9b86c" stroke-width="2"/><path d="M270 175h60M270 710h60" stroke="#f0daa0" stroke-width="8"/>
+  <text x="300" y="103" fill="#d9b86c" font-family="Georgia,serif" font-size="18" text-anchor="middle" letter-spacing="6">AISHA FAUSTINO</text>
+  <text x="300" y="250" fill="#fff5d5" font-family="Georgia,serif" font-size="66" text-anchor="middle">UM AMOR</text><text x="300" y="315" fill="#d9b86c" font-family="Georgia,serif" font-size="62" font-style="italic" text-anchor="middle">Predestinado</text>
+  <circle cx="300" cy="486" r="120" fill="url(#m1)" opacity=".92"/>
+  <g fill="#3a1021"><path d="M145 626h310v70H145Z"/><path d="m173 626 31-89 31 89Zm96 0 31-142 31 142Zm96 0 31-102 31 102Z"/><path d="M210 579h180v117H210Z"/><path d="M277 624q23-38 46 0v72h-46Z"/></g>
+  <g fill="#d9b86c"><path d="m112 410 7 17 17 7-17 7-7 17-7-17-17-7 17-7Z"/><path d="m494 385 5 13 13 5-13 5-5 13-5-13-13-5 13-5Z"/></g>
+  <text x="300" y="790" fill="#d9b86c" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" letter-spacing="4">CAPA CONCEITUAL</text><text x="300" y="825" fill="#fff" fill-opacity=".55" font-family="Georgia,serif" font-size="15" font-style="italic" text-anchor="middle">uma história medieval</text>
+</svg>
+

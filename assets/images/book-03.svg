@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Vanessa Doorman em Exside — Uma Escola de Magia</title><desc id="desc">Capa conceitual original roxa, azul e dourada com portal e escola mágica abstrata.</desc>
+  <defs>
+    <linearGradient id="b3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#140b2b"/><stop offset=".48" stop-color="#301a4b"/><stop offset="1" stop-color="#0b2850"/></linearGradient>
+    <radialGradient id="v3"><stop stop-color="#fff7d7" stop-opacity=".9"/><stop offset=".18" stop-color="#d9b86c" stop-opacity=".72"/><stop offset=".55" stop-color="#7651a1" stop-opacity=".3"/><stop offset="1" stop-color="#1b1136" stop-opacity="0"/></radialGradient>
+    <filter id="g3"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="600" height="900" fill="url(#b3)"/><rect x="18" y="18" width="564" height="864" rx="7" fill="none" stroke="#d9b86c" stroke-width="2"/><path d="M40 152h520M40 720h520" stroke="#d9b86c" stroke-opacity=".45"/>
+  <g fill="#fff" opacity=".8"><circle cx="87" cy="218" r="2"/><circle cx="516" cy="197" r="3"/><circle cx="127" cy="440" r="3"/><circle cx="498" cy="530" r="2"/><circle cx="85" cy="665" r="2"/></g>
+  <text x="300" y="95" fill="#d9b86c" font-family="Georgia,serif" font-size="18" text-anchor="middle" letter-spacing="6">AISHA FAUSTINO</text>
+  <text x="300" y="218" fill="#e8dcf5" font-family="Georgia,serif" font-size="31" text-anchor="middle" letter-spacing="2">VANESSA DOORMAN EM</text><text x="300" y="300" fill="#f0daa0" font-family="Georgia,serif" font-size="92" text-anchor="middle" letter-spacing="7">EXSIDE</text><text x="300" y="345" fill="#fff" fill-opacity=".7" font-family="Georgia,serif" font-size="22" font-style="italic" text-anchor="middle">Uma Escola de Magia</text>
+  <ellipse cx="300" cy="522" rx="170" ry="205" fill="url(#v3)"/>
+  <g fill="none" stroke="#d9b86c"><ellipse cx="300" cy="523" rx="141" ry="178" stroke-width="4"/><ellipse cx="300" cy="523" rx="112" ry="148" stroke-width="2" stroke-dasharray="7 10"/></g>
+  <g fill="#12152c"><path d="M175 658h250v62H175Z"/><path d="M207 493h186v227H207Z"/><path d="m228 493 32-92 32 92Zm80 0 32-125 32 125Z"/><path d="M178 574h35v146h-35Zm209 0h35v146h-35Z"/><path d="M273 627q27-47 54 0v93h-54Z"/></g>
+  <g filter="url(#g3)" fill="#f0daa0"><path d="m108 371 7 18 18 7-18 7-7 18-7-18-18-7 18-7Z"/><path d="m497 420 5 13 13 5-13 5-5 13-5-13-13-5 13-5Z"/><circle cx="300" cy="421" r="5"/></g>
+  <text x="300" y="790" fill="#d9b86c" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" letter-spacing="4">CAPA CONCEITUAL</text><text x="300" y="825" fill="#fff" fill-opacity=".55" font-family="Georgia,serif" font-size="15" font-style="italic" text-anchor="middle">alguns portais mudam tudo</text>
+</svg>
