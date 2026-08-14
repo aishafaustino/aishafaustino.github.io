@@ -48,6 +48,44 @@ p { text-wrap: pretty; }
   color: var(--color-white);
   transition: background var(--transition), box-shadow var(--transition), color var(--transition);
 }
+
+.site-visits {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    margin-top: 1.25rem;
+    padding: 0.65rem 1rem;
+
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.72);
+
+    border: 1px solid rgba(217, 184, 108, 0.22);
+    border-radius: 999px;
+
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.site-visits__icon {
+    color: var(--color-gold);
+}
+
+.site-visits strong {
+    color: var(--color-gold);
+    font-weight: 600;
+}
+
+@media (max-width: 480px) {
+    .site-visits {
+        width: 100%;
+        max-width: 320px;
+
+        font-size: 0.75rem;
+        text-align: center;
+    }
+}
+
 .site-header.is-scrolled { background: rgba(248, 247, 251, .94); color: var(--color-ink); box-shadow: 0 8px 32px rgba(31, 20, 48, .08); backdrop-filter: blur(14px); }
 .site-header__inner { min-height: 78px; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 
