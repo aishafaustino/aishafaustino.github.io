@@ -43,8 +43,8 @@
         ${entry.subtitle ? `<p class="modal__subtitle">${entry.subtitle}</p>` : ''}
         <p>${entry.description}</p>
         <p>${entry.extra}</p>
-        <p class="modal__future">O livro está disponível na Amazon - <a
-  href="https://link.amazon/B0ef79gFA"
+        <p class="modal__future">O livro está disponível na Amazon 
+        <a href="https://link.amazon/B0ef79gFA"
   target="_self"
   class="custom-button"
   rel=""
