@@ -43,7 +43,18 @@
         ${entry.subtitle ? `<p class="modal__subtitle">${entry.subtitle}</p>` : ''}
         <p>${entry.description}</p>
         <p>${entry.extra}</p>
-        <p class="modal__future">Mais informações sobre esta obra serão publicadas futuramente, sempre com supervisão e aprovação dos pais/responsáveis legais.</p>
+        <p class="modal__future">O livro está disponível na Amazon - <a
+  href="https://link.amazon/B0ef79gFA"
+  target="_self"
+  class="custom-button"
+  rel=""
+  aria-label="Clique aqui"
+>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+  
+  Clique aqui
+</a>
+        </p>
       </div>
     </div>`;
 

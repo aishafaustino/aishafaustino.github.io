@@ -1985,6 +1985,33 @@ p:last-child {
   font-size: .8rem;
 }
 
+.custom-button {
+    
+      background-color: #2f3342;
+      color: #FFFFFF; 
+      font-family: Arial, system-ui, sans-serif;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: normal;
+      border: 1px solid #E2E8F0;
+    
+  }
+
+  .custom-button:hover {
+    
+        color: #FFFFFF;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        filter: brightness(110%);
+       transform: scale(0.95); 
+        transition: all 0.3s ease;
+      
+  }
+
 .site-footer nav a:hover {
   color:
     var(--color-gold-light);
